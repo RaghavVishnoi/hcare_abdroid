@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:checked="true"
+            android:icon="@drawable/home_normal"
+            android:title="HOME"></item>
+        <item
+            android:id="@+id/edit_profile"
+            android:checked="false"
+            android:icon="@drawable/edit_normal"
+            android:title="EDIT PROFILE"></item>
+        <item
+            android:id="@+id/change_pass"
+            android:checked="false"
+            android:icon="@drawable/change_pass_normal"
+            android:title="CHANGE PASSWORD"></item>
+        <item
+            android:id="@+id/log_out"
+            android:checked="false"
+            android:icon="@drawable/log_out_normal"
+            android:title="LOG OUT"></item>
+    </group>
+</menu>
